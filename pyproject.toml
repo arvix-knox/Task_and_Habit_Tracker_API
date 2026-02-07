@@ -1,0 +1,16 @@
+[project]
+name = "task-habit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.18.3",
+    "argon2>=0.1.10",
+    "fastapi[all]>=0.128.4",
+    "passlib>=1.7.4",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.1",
+    "python-jose>=3.5.0",
+    "sqlalchemy>=2.0.46",                                                               
+]

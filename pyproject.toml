@@ -7,10 +7,11 @@ requires-python = ">=3.14"
 dependencies = [
     "alembic>=1.18.3",
     "argon2>=0.1.10",
+    "asyncpg>=0.31.0",
     "fastapi[all]>=0.128.4",
     "passlib>=1.7.4",
     "psycopg2-binary>=2.9.11",
     "python-dotenv>=1.2.1",
     "python-jose>=3.5.0",
-    "sqlalchemy>=2.0.46",                                                               
+    "sqlalchemy>=2.0.46",
 ]

@@ -7,7 +7,15 @@ wheels/
 *.egg-info
 
 # Virtual environments
+<<<<<<< HEAD
 .venv
 .env
 
 alembic.ini
+=======
+.venv/
+venv/
+
+# Environment files
+.env
+>>>>>>> arvix-knox/main

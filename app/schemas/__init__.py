@@ -1,4 +1,4 @@
-from app.schemas.auth import RegisterResponse, TokenResponse, UserRegister, UserResponse
+from app.schemas.schemas import RegisterResponse, TokenResponse, UserRegister, UserResponse
 
 __all__ = [
     "RegisterResponse",

@@ -17,7 +17,7 @@ from app.core.auth import (
 from app.core.config import JWT_ACCESS_TOKEN_EXPIRE_MINUTES
 from app.core.database import get_db
 from app.models import User
-from app.schemas.auth import RegisterResponse, TokenResponse, UserRegister, UserResponse
+from app.schemas.schemas import RegisterResponse, TokenResponse, UserRegister, UserResponse
 
 app = FastAPI(title="Task and Habit Tracker API")
 
